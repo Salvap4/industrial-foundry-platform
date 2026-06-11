@@ -2,7 +2,7 @@
 
 Industrial data platform inspired by the Palantir Foundry ecosystem for manufacturing and operational environments.
 
-The goal of this project is to build a modular industrial platform capable of integrating operational data, applying business logic, and delivering data products that support industrial decision making.
+The goal of this project is to apply end-to-end Data Engineering principles and build a modular industrial platform capable of integrating operational data, implementing business logic, and delivering data products that support industrial decision making.
 
 ---
 
@@ -22,9 +22,9 @@ This project explores practical Data Engineering concepts through realistic indu
 
 ## Current Development
 
-The first module of the platform focuses on **Supplier Operational Risk** and is currently being developed through a modular Pipeline Builder workflow.
+The current module focuses on **Supplier Operational Risk**, integrating suppliers, components, shipments and incidents through modular Pipeline Builder workflows.
 
-The current Pipeline Builder workflow integrates multiple industrial datasets and progressively transforms them into operational metrics that will support future business applications.
+This workflow progressively transforms raw industrial data into operational metrics for future Ontology models and business applications.
 
 ![Pipeline Builder workflow](images/pipeline-builder/supplier-risk-pipeline.png)
 
@@ -40,11 +40,11 @@ Current capabilities:
 
 - Multi-source data integration
 - Modular Pipeline Builder workflows
+- Business logic implementation
 - Supplier operational metrics
-- Shipment analytics
-- Component analytics
-- Incident analytics
-- Data quality and validation logic
+- Data quality and validation
+- Operational KPI calculation
+- Industrial data modeling
 
 ---
 
@@ -66,7 +66,7 @@ Planned areas of development include:
 
 ## Tech Stack
 
-Palantir Foundry • Pipeline Builder • PySpark • SQL • Ontology • Workshop
+Palantir Foundry • Pipeline Builder • PySpark • SQL • Ontology • Workshop • Data Lineage
 
 ---
 
