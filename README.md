@@ -2,71 +2,112 @@
 
 Industrial data platform inspired by the Palantir Foundry ecosystem for manufacturing and operational environments.
 
-The goal of this project is to apply end-to-end Data Engineering principles and build a modular industrial platform capable of integrating operational data, implementing business logic, and delivering data products that support industrial decision making.
+The goal of this project is to build a realistic end-to-end industrial platform capable of integrating operational data, implementing business logic, modeling business entities through Ontology, and delivering operational applications that support industrial decision-making.
 
 ---
 
 ## Vision
 
-This project explores practical Data Engineering concepts through realistic industrial use cases, including:
+This project progressively demonstrates how Palantir Foundry concepts can be applied in a realistic manufacturing and supply chain environment.
 
-- Industrial data integration
-- Business data modeling
-- Pipeline orchestration
-- Operational analytics
-- Ontology-driven design
-- Business applications
-- Manufacturing scenarios
+Rather than building isolated demos, the objective is to create a shared industrial data foundation that supports multiple business modules, operational workflows, and future applications.
 
 ---
 
-## Current Development
+## Platform Architecture
 
-The current module focuses on **Supplier Operational Risk**, integrating suppliers, components, shipments and incidents through modular Pipeline Builder workflows.
+Current industrial data foundation:
 
-This workflow progressively transforms raw industrial data into operational metrics for future Ontology models and business applications.
+* Suppliers
+* Components
+* Plants
+* Shipments
+* Work Orders
+* Incidents
 
-![Pipeline Builder workflow](images/pipeline-builder/supplier-risk-pipeline.png)
+All datasets are connected through realistic business relationships and support a shared industrial Ontology.
 
-Current datasets:
-
-- Suppliers
-- Components
-- Shipments
-- Incidents
-- Plants
-
-Current capabilities:
-
-- Multi-source data integration
-- Modular Pipeline Builder workflows
-- Business logic implementation
-- Supplier operational metrics
-- Data quality and validation
-- Operational KPI calculation
-- Industrial data modeling
+![Ontology Overview](images/ontology/ontology-overview.png)
 
 ---
 
-## Future Modules
+## Current Module: Supplier Risk Management
 
-The platform is designed to grow over time.
+The first business module focuses on Supplier Risk Management.
 
-Planned areas of development include:
+A complete Pipeline Builder workflow aggregates operational data from multiple industrial sources and calculates supplier-level risk and performance metrics.
 
-- Supplier performance
-- Operational risk scoring
-- Manufacturing KPIs
-- Ontology
-- Workshop applications
-- Actions
-- Additional industrial use cases
+Key capabilities:
+
+* Multi-source data integration
+* Business KPI calculation
+* Data quality handling
+* Null management
+* Operational risk scoring
+* Production-style transformations
+
+![Pipeline Builder Workflow](images/pipeline-builder/supplier-risk-pipeline.png)
+
+---
+
+## Ontology
+
+A business-oriented Ontology has been implemented to model industrial entities and operational metrics.
+
+Current implementation includes:
+
+* Supplier Object Type
+* Business-friendly properties
+* Risk indicators
+* Quality metrics
+* Supply chain metrics
+* Object View configuration
+* Relationship modeling
+
+![Supplier Object Type](images/ontology/supplier-object-type.png)
+
+---
+
+## Workshop Application
+
+A first operational application has been built on top of the Ontology.
+
+### Supplier Risk Management Application
+
+Features:
+
+* Supplier risk distribution analysis
+* KPI monitoring
+* Supplier explorer
+* Supplier detail view
+* Top-risk supplier identification
+* Interactive filtering and exploration
+
+![Supplier Risk Management Application](images/workshop/supplier-risk-app.png)
+
+---
+
+## Roadmap
+
+The platform evolves module by module while reusing the same industrial data foundation and shared Ontology.
+
+Current roadmap:
+
+* ✅ Supplier Risk Management
+* ⏳ Supplier Performance Analytics
+* ⏳ Manufacturing Operations Monitoring
+* ⏳ Logistics & Shipment Intelligence
+* ⏳ Quality Management
+* ⏳ Shared Enterprise Ontology
+* ⏳ Additional Workshop Applications
+* ⏳ Actions & Operational Workflows
+* ⏳ AIP-Powered Use Cases
 
 ---
 
 ## Tech Stack
 
-Palantir Foundry • Pipeline Builder • PySpark • SQL • Ontology • Workshop • Data Lineage
+Palantir Foundry • Pipeline Builder • Ontology • Workshop • PySpark • SQL • Data Lineage
 
 ---
 
@@ -74,7 +115,7 @@ Palantir Foundry • Pipeline Builder • PySpark • SQL • Ontology • Works
 
 🚧 Active development.
 
-This is a long-term portfolio project that evolves incrementally by adding new industrial use cases and platform capabilities.
+This is a long-term portfolio project that incrementally expands into a complete industrial data platform.
 
 ---
 
