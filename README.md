@@ -85,6 +85,8 @@ Features:
 
 ![Supplier Risk Management Application](images/workshop/supplier-risk-app.png)
 
+![Supplier Risk Management Application](images/workshop/supplier-risk-app-2.png)
+
 ---
 
 ## Roadmap
