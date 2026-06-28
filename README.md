@@ -74,18 +74,29 @@ A first operational application has been built on top of the Ontology.
 
 ### Supplier Risk Management Application
 
-Features:
+Current functionality includes:
 
-* Supplier risk distribution analysis
-* KPI monitoring
-* Supplier explorer
-* Supplier detail view
-* Top-risk supplier identification
-* Interactive filtering and exploration
+* Executive KPI dashboard
+* Global interactive filters (Risk Level, Country, Supplier Type and Strategic Supplier)
+* Supplier risk distribution
+* Supplier Risk Portfolio scatter plot for identifying high-risk, high-value suppliers
+* Supplier explorer with contextual detail panel
+* Related components navigation
+* Top 10 highest-risk suppliers
+* Country-level risk analysis
+* Cross-filtering across all visualizations
+
+Overview of the application:
 
 ![Supplier Risk Management Application](images/workshop/supplier-risk-app.png)
 
+Interactive Supplier Explorer:
+
 ![Supplier Risk Management Application](images/workshop/supplier-risk-app-2.png)
+
+Filtering suppliers dynamically:
+
+![Filtered Suppliers](images/workshop/supplier-risk-app-3.png)
 
 ---
 
